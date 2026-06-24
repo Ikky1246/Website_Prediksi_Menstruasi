@@ -1,20 +1,81 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🩸 Menstruasi App - AI Cycle Prediction
 
-# Run and deploy your AI Studio app
+## 📌 Deskripsi
 
-This contains everything you need to run your app locally.
+Menstruasi App adalah aplikasi berbasis web untuk membantu pengguna memantau siklus menstruasi dan melakukan prediksi tanggal menstruasi berikutnya menggunakan teknologi Machine Learning.
 
-View your app in AI Studio: https://ai.studio/apps/74e23e8e-8ebe-4105-861a-64fb83dd8dc3
+Aplikasi memiliki 2 role:
+- 👤 User
+- 👨‍💼 Admin
 
-## Run Locally
+User dapat melakukan prediksi siklus, melihat kalender menstruasi, mencatat jurnal kesehatan, dan melihat riwayat prediksi.
 
-**Prerequisites:**  Node.js
+Admin dapat mengelola pengguna, memantau data prediksi, dan mengelola sistem.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Teknologi
+
+Frontend:
+- React.js
+- TypeScript
+- Tailwind CSS
+
+Backend:
+- Node.js
+- Express.js
+
+AI Prediction Service:
+- FastAPI
+- Machine Learning
+
+Database:
+- MongoDB Atlas
+
+
+## ⚙️ Fitur
+
+- Authentication (Login/Register)
+- Prediksi siklus menstruasi berbasis AI
+- Kalender menstruasi
+- Tracking siklus
+- Journal kesehatan
+- Riwayat prediksi
+- Dashboard User & Admin
+- Manajemen pengguna
+
+
+## 🔧 Setup
+
+Install dependency:
+
+```bash
+npm install
+```
+
+Jalankan aplikasi:
+
+```bash
+npm run dev
+```
+
+Jalankan FastAPI:
+
+```bash
+python prediksi_service.py
+```
+
+
+## 🔑 Environment
+
+Buat file `.env`:
+
+```env
+MONGODB_URI=your_mongodb_atlas_url
+JWT_SECRET=your_secret
+FASTAPI_URL=http://localhost:8001
+```
+
+
+## 👩‍💻 Developer
+
+Adinda Riski Maulida
