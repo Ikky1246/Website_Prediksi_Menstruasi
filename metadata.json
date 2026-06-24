@@ -1,0 +1,6 @@
+{
+  "name": "Menstrual Cycle Tracker & Journal",
+  "description": "A comprehensive menstrual cycle tracker, calendar prediction, daily journal, and user dashboard with role-based admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
